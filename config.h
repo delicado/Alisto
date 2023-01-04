@@ -5,6 +5,6 @@
 using Real = double;
 using Char = char;
 
-static constexpr size_t cfg_static_param_size = 30;
+static constexpr size_t cfg_static_param_size = 32;
 
 #endif // CONFIG_H

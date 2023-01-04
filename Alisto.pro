@@ -17,6 +17,7 @@ SOURCES += \
 
 HEADERS += \
     config.h \
+    general_object.h \
     mainwindow.h \
     parser.h \
     utilities.h \

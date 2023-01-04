@@ -1,6 +1,8 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "parser.h"
+#include "general_object.h"
+
 #include <fstream>
 #include <iostream>
 #include <QDebug>
@@ -15,7 +17,8 @@ MainWindow::MainWindow(QWidget *parent)
 
     Parser parser;
 
-    std::ifstream in("H:/CE3E3V2_FilamentHolderStand4.gcode", std::ios::in | std::ios::binary);
+    std::cout << "GeneralObject: " << sizeof(GeneralObject) << std::endl;
+    std::ifstream in("C:/Users/Robot/Documents/Sample/xmas_dragon_long.gcode", std::ios::in | std::ios::binary);
     in.seekg(0, std::ios::end);
     int size = in.tellg();
     in.seekg(0, std::ios::beg);

@@ -8,6 +8,10 @@
 struct ParserParam {
     char name;
     union {
+        struct {
+            uint16_t  number;
+            uint8_t  size;
+        } type;
         int parami;
         float paramf;
     };
@@ -20,7 +24,7 @@ protected:
     ParserParam* GetParam();
     size_t GetParamSize() const;
 public:
-    virtual void G0();
+
 
     friend class Parser;
 };

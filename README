@@ -1,0 +1,7 @@
+**** NOT READY YET ****
+	Alisto is yet another 3D printer firmware. The aim is to learn from the other great 
+3D printer firmwares and incorporate the things that makes them good. The source code 
+should be clean and easily moddable so you won't say "WHY IS 90% OF YOUR CODE BASE MADE OF MACROS!" 
+	
+	Right now this project is on designing phase, using Qt graphical components to visualize 
+the movements of this proposed 3D printer firmware.
