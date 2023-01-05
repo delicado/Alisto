@@ -17,6 +17,8 @@ SOURCES += \
 
 HEADERS += \
     config.h \
+    fixed_point.h \
+    fixed_point.inl \
     general_object.h \
     mainwindow.h \
     parser.h \

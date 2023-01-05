@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include "parser.h"
 #include "general_object.h"
+#include "config.h"
 
 #include <fstream>
 #include <iostream>
@@ -28,6 +29,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     ParserDispatch dispatch;
     parser.ReadFromMemory({data.data(), data.size()}, dispatch);
+    Float a = Float::
 }
 
 MainWindow::~MainWindow()
